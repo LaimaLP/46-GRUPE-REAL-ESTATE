@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server --host=localhost --port=1113"
+    "dev": "dead-server --host=localhost --port=4606"
   },
   "keywords": [],
   "author": "Laima Pamaiva",
