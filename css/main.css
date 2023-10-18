@@ -5,15 +5,15 @@ body {
 header {
   display: inline-block;
   width: 1000px;
-  margin-left: calc(50% - 500px);
   margin-top: 20px;
-  
+  margin-left: calc(50% - 500px);
 }
+
 /* logo */
-header>  img{
+header > img{
   width: 100px;
   height: 30px;
-  margin-top: 20px;
+  margin-top: 5px;
   float: left;
 }
 
@@ -29,14 +29,14 @@ nav{
   }
 
 
-a {
+a { 
+  color: #333;
   font-size: 20px;
   line-height: 20px;
   margin-right: 30px;
   text-decoration: none;
-  color: #333;
-  
-  
+ 
+    
 }
 a:last-child{
   margin-right: 0;
@@ -48,8 +48,7 @@ a:last-child{
 
 
 /*avatar*/
-
-div> img{
+div > img{
   width: 40px;
   height: 40px;
   float: right;
