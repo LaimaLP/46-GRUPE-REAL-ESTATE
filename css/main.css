@@ -91,18 +91,27 @@ main {
 .main-title {
   margin-bottom: 30px;
 }
+form{
+  display:flex
+}
+input{
+  padding: 10px;
+  padding-right: 150px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
 
 
 .neighborhood{
   width: 65%;
   float: left;
   /* background-color: aqua; */
-  margin-right: 30px;
-  padding: 30x;
+  /* margin-right: 30px; */
+ 
 }
 
-.three-city{
-  margin-top: 3px;
+.all-three-city{
+  margin-top: 10px;
   display: block;
   width: 100%;
   
@@ -115,23 +124,24 @@ main {
 
 .city{
   display: inline-block;
-  width: 32%;
+  width: 30%;
+margin-right: 18px;
 
   
 }
 .text-fonas{
   background-color: rgba(245, 237, 237, 0.805);
-    margin-top: 100px;
+  margin-top: 80px;
   margin-left:  calc(32% - 65px);
   color: blue;
-  padding: 15px;
+  padding: 8px;
   /* margin-right: calc(32% - 40px); */
   width: 180px;
   border-radius: 20px;
   font-size: 15px;
-  
-  
+    
   }
+
   .money{
     background-color: rgba(79, 98, 242, 0.805);
     color:white;
@@ -152,10 +162,11 @@ main {
   padding: 30px;
   background-size: cover;
   background-position: center;
-  background-image: url(../img/2.png);
   border-radius: 20px;
   overflow: hidden;
-
+  background-image: url(../img/2.png);
+  
+ 
 
 }
 .second-city{
@@ -173,12 +184,13 @@ main {
 .third-city{
   background-image: url(../img/4.png);
   width: 100%;
-  min-height: 200px;
-  padding-top: 30px;
+  min-height: 150px;
+  padding: 0px 30px 0px 30px;
   background-size: cover;
   background-position: center;
   border-radius: 20px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .see-all-link{
@@ -186,13 +198,16 @@ color: white;
 background-color: rgb(255, 106, 0);
 border: 2px solid rgb(255, 106, 0);
 text-decoration: none;
-padding: 5px;
-margin-top: 20px;
-border-radius: 20%;
-
-
+padding: 7px 28px 7px 28px;
+box-shadow: -3px 5px 25px #d67505;
+border-radius: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
 }
-
+.see-all-link:hover{
+  border: 2px solid orangered;
+  background-color: orangered;
+}
 
 .recomended{
   width: calc(35% - 30px);
@@ -212,7 +227,17 @@ padding: 10px;
 border-radius: 20px;
 
   }
-
+  .first-house:hover{
+    border: 2px solid rgb(56, 55, 51);
+    cursor: pointer;
+  }
+.recommended-house-location{
+  color: grey;
+  font-size: 14px;
+}
+.recommended-house-location:hover{
+  text-decoration:underline;
+}
 .house-icon{
 width: 100%;
 /* border: 2px solid blue; */
@@ -225,6 +250,7 @@ font-size: 12px;
     min-height: 100px;
   display: inline-block;
   padding-right: 4px;
+  border-radius: 20px;
 }
 
 .text-about-house{
