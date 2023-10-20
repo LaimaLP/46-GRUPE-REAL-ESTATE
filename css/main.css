@@ -115,11 +115,13 @@ margin-bottom: 10px;
 .buy-button:hover{
 color: rgb(95, 51, 255);
 background-color:aliceblue;
+cursor: pointer;
 }
 
 .rent-button:hover{
   color:white;
   background-color: rgb(95, 51, 255);
+  cursor: pointer;
 }
 
 input {
