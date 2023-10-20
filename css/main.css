@@ -49,7 +49,6 @@ body {
   padding-bottom: 5px;
 }
 
-
 /*avatar*/
 .user-avatar {
   width: 40px;
@@ -58,9 +57,8 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
-.user-avatar:hover{
-    border: 1px solid;
- 
+.user-avatar:hover {
+  border: 1px solid;
 }
 
 main {
@@ -79,20 +77,58 @@ main {
   background-image: url(../img/bg.png);
   /* cia nereikia, bet su kitais reikia */
   background-repeat: no-repeat;
-
+  border-radius: 20px;
   background-size: cover;
   background-position: center;
 }
 .hero-content {
-  margin-top: 150px;
+  margin-top: 110px;
   width: 30%;
 }
 .main-title {
   margin-bottom: 30px;
 }
-form {
-  display: flex;
+.buy-rent-button{
+background-color: aliceblue;
+padding: 5px 0px 5px 1px;
+border-radius: 10px;
+width: 60%;
+margin-bottom: 10px;
+
+
+
 }
+.buy-button{
+  color: aliceblue;
+  background-color: rgb(95, 51, 255);
+   border: none; 
+   
+   
+}
+.buy-button:hover{
+color: rgb(95, 51, 255);
+background-color:aliceblue;
+
+
+}
+.rent-button{
+  color: rgb(95, 51, 255);
+  background-color: white;
+  border: none;
+}
+.rent-button:hover{
+  color:white;
+  background-color: rgb(95, 51, 255);
+}
+
+.buy-rent-button > button{
+  
+  padding: 5px 28px 5px 28px;
+  border-radius: 10px;
+  
+}
+
+
 input {
   padding: 10px;
   padding-right: 150px;
@@ -134,7 +170,6 @@ input {
   border-radius: 20px;
   font-size: 15px;
   margin-top: 80px;
-
 }
 
 .money {
@@ -147,7 +182,9 @@ input {
   right: -60%;
 }
 
-.first-city, .second-city, .third-city{
+.first-city,
+.second-city,
+.third-city {
   width: 100%;
   padding: 30px;
   background-size: cover;
@@ -157,31 +194,28 @@ input {
   overflow: hidden;
   min-height: 180px;
   cursor: pointer;
-
 }
 .first-city {
   background-image: url(../img/2.png);
-  
 }
-.first-city:hover{
+.first-city:hover {
   box-shadow: 1px 1px 20px rgb(132, 111, 207);
 }
 .second-city {
   background-image: url(../img/3.png);
-  
 }
-.second-city:hover{
+.second-city:hover {
   box-shadow: 1px 1px 20px rgb(132, 111, 207);
 }
 .third-city {
   background-image: url(../img/4.png);
   /* background-color: rgb(207, 35, 161); */
-min-height: 130px;
+  min-height: 130px;
   margin-bottom: 20px;
-    }
-    .third-city:hover{
-      box-shadow: 1px 1px 20px rgb(132, 111, 207);
-    }
+}
+.third-city:hover {
+  box-shadow: 1px 1px 20px rgb(132, 111, 207);
+}
 
 .see-all-link {
   color: white;
@@ -193,7 +227,6 @@ min-height: 130px;
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-
 }
 .see-all-link:hover {
   border: 2px solid orangered;
