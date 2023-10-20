@@ -45,7 +45,7 @@ body {
   margin-right: 0;
 }
 .menu-link:hover {
-  color: red;
+  color: rgb(143, 163, 254);
   padding-bottom: 5px;
 }
 
@@ -88,48 +88,47 @@ main {
 .main-title {
   margin-bottom: 30px;
 }
-.buy-rent-button{
-background-color: aliceblue;
-padding: 5px 0px 5px 1px;
-border-radius: 10px;
-width: 60%;
-margin-bottom: 10px;
-
+.buy-rent-button {
+  background-color: aliceblue;
+  padding: 5px 0px 5px 1px;
+  border-radius: 10px;
+  width: 60%;
+  margin-bottom: 10px;
 }
-.buy-button, .rent-button{
+.buy-button,
+.rent-button {
   border: none;
   padding: 5px 28px 5px 28px;
   border-radius: 10px;
 }
 
-.buy-button{
+.buy-button {
   color: aliceblue;
-  background-color: rgb(95, 51, 255);
-    }
-
-.rent-button{
-  color: rgb(95, 51, 255);
-  background-color: white;
- }
-
-.buy-button:hover{
-color: rgb(95, 51, 255);
-background-color:aliceblue;
-cursor: pointer;
+  background-color: rgb(143, 163, 254);
 }
 
-.rent-button:hover{
-  color:white;
-  background-color: rgb(95, 51, 255);
+.rent-button {
+  color: rgb(143, 163, 254);
+  background-color: white;
+}
+
+.buy-button:hover {
+  color: rgb(143, 163, 254);
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.rent-button:hover {
+  color: white;
+  background-color: rgb(143, 163, 254);
   cursor: pointer;
 }
 
 input {
-  padding: 10px;
-  padding-right: 150px;
   border-radius: 10px;
-   background-color: white;
- }
+  padding: 10px;
+  border: none;
+}
 
 .neighborhood-section {
   width: 65%;
