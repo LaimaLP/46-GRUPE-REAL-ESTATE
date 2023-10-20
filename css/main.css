@@ -237,13 +237,13 @@ input {
   border-radius: 20px;
 }
 /* .bookmark-icon{
-  /* position: relative; */
+  position: relative;
   width: 20px;
   margin-top: -118px;
   margin-left: 250px;
-  
+  } 
+  */
 
-} */
 .recommended-house-cards:hover {
   border: 2px solid rgb(56, 55, 51);
   cursor: pointer;
