@@ -62,8 +62,6 @@ body {
   cursor: pointer;
 }
 
-
-
 main {
   /* background-color: rgb(255, 238, 51); */
   width: 1000px;
@@ -71,7 +69,7 @@ main {
   margin-left: calc(50% - 500px);
   display: inline-block;
 }
-.hero{
+.hero {
   width: 100%;
   min-height: 280px;
   margin-bottom: 30px;
@@ -91,30 +89,27 @@ main {
 .main-title {
   margin-bottom: 30px;
 }
-form{
-  display:flex
+form {
+  display: flex;
 }
-input{
+input {
   padding: 10px;
   padding-right: 150px;
   border-radius: 10px;
   border: 2px solid white;
 }
 
-
-.neighborhood{
+.neighborhood-section {
   width: 65%;
   float: left;
   /* background-color: aqua; */
   /* margin-right: 30px; */
- 
 }
 
-.all-three-city{
+.all-three-city {
   margin-top: 10px;
   display: block;
   width: 100%;
-  
 }
 /* .city>img{
   width: 150px;
@@ -122,41 +117,39 @@ input{
   
 } */
 
-.city{
+.city {
   display: inline-block;
   width: 30%;
-margin-right: 18px;
-
-  
+  margin-right: 18px;
 }
-.text-fonas{
+.text-fonas {
   background-color: rgba(245, 237, 237, 0.805);
   margin-top: 80px;
-  margin-left:  calc(32% - 65px);
+  margin-left: calc(32% - 65px);
   color: blue;
   padding: 8px;
   /* margin-right: calc(32% - 40px); */
   width: 180px;
   border-radius: 20px;
   font-size: 15px;
-    
-  }
+}
 
-  .money{
-    background-color: rgba(79, 98, 242, 0.805);
-    color:white;
-    padding: 10px;
-    padding-right: 0;
-    margin-top: -30px;
-    margin-right: 0;
-    /* margin-left: 50px; */
-    font-size: 10px;
-    border-radius: 20px;
-    position: relative;
-    right: -60%;
+.money {
+  background-color: rgba(79, 98, 242, 0.805);
+  color: white;
+  padding: 10px;
+  padding-right: 0;
+  margin-top: -30px;
+  margin-right: 0;
+  /* margin-left: 50px; */
+  font-size: 10px;
+  border-radius: 20px;
+  position: relative;
+  right: -60%;
+}
 
-  }
-.first-city{
+.first-city {
+  background-image: url(../img/2.png);
   width: 100%;
   min-height: 200px;
   padding: 30px;
@@ -164,12 +157,8 @@ margin-right: 18px;
   background-position: center;
   border-radius: 20px;
   overflow: hidden;
-  background-image: url(../img/2.png);
-  
- 
-
 }
-.second-city{
+.second-city {
   background-image: url(../img/3.png);
   width: 100%;
   min-height: 200px;
@@ -178,102 +167,94 @@ margin-right: 18px;
   background-position: center;
   border-radius: 20px;
   overflow: hidden;
-
-
 }
-.third-city{
+.third-city {
   background-image: url(../img/4.png);
   width: 100%;
-  min-height: 150px;
-  padding: 0px 30px 0px 30px;
   background-size: cover;
   background-position: center;
   border-radius: 20px;
   overflow: hidden;
+  
+  min-height: 150px;
+  padding: 0px 30px 0px 30px;
   margin-bottom: 20px;
 }
 
-.see-all-link{
-color: white;
-background-color: rgb(255, 106, 0);
-border: 2px solid rgb(255, 106, 0);
-text-decoration: none;
-padding: 7px 28px 7px 28px;
-box-shadow: -3px 5px 25px #d67505;
-border-radius: 10px;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
+.see-all-link {
+  color: white;
+  background-color: rgb(255, 106, 0);
+  border: 2px solid rgb(255, 106, 0);
+  text-decoration: none;
+  padding: 7px 28px 7px 28px;
+  box-shadow: -3px 5px 25px #d67505;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
-.see-all-link:hover{
+.see-all-link:hover {
   border: 2px solid orangered;
   background-color: orangered;
 }
 
-.recomended{
+.recomended-section {
   width: calc(35% - 30px);
   /* background-color: rgb(92, 255, 71); */
   float: right;
-  
-  }
+}
 
- 
-.first-house{
-width: 100%;
-border: 2px solid rgb(206, 198, 198);
-margin-top: 10px;
-margin-bottom: 10px;
-display: inline-block;
-padding: 10px;
-border-radius: 20px;
-
-  }
-  .first-house:hover{
-    border: 2px solid rgb(56, 55, 51);
-    cursor: pointer;
-  }
-.recommended-house-location{
+.first-house {
+  width: 100%;
+  border: 2px solid rgb(206, 198, 198);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+}
+.first-house:hover {
+  border: 2px solid rgb(56, 55, 51);
+  cursor: pointer;
+}
+.recommended-house-location {
   color: grey;
   font-size: 14px;
 }
-.recommended-house-location:hover{
-  text-decoration:underline;
+.recommended-house-location:hover {
+  text-decoration: underline;
 }
-.house-icon{
-width: 100%;
-/* border: 2px solid blue; */
-display: inline-block;
-font-size: 12px;
+.house-icon {
+  width: 100%;
+  /* border: 2px solid blue; */
+  display: inline-block;
+  font-size: 12px;
 }
 
-.first-house > img{
+.first-house > img {
   width: 30%;
-    min-height: 100px;
+  min-height: 100px;
   display: inline-block;
   padding-right: 4px;
   border-radius: 20px;
 }
 
-.text-about-house{
+.text-about-house {
   /* border: 2px solid yellow; */
   width: 68%;
   display: inline-block;
   padding-top: 10px;
-  font-family:Arial, Helvetica, sans-serif;
-  
-  
-  
+  font-family: Arial, Helvetica, sans-serif;
 }
-.text-about-house>p{
-    margin-bottom: 6px;
+.text-about-house > p {
+  margin-bottom: 6px;
 }
-.fa{
- 
-  color: blueviolet ;
-  display: inline-block; 
+.fa {
+  color: blueviolet;
+  display: inline-block;
 }
 
-.second-house > img{
+.second-house > img {
   width: 30%;
-    min-height: 100px;
+  min-height: 100px;
   display: inline-block;
 }
