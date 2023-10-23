@@ -141,8 +141,8 @@ input:focus{
 }
 .search-button{
   position: absolute;
-  top: 1px;
-  right: 10px;
+  top: 0px;
+  right: 0px;
   width: 30px;
   height: 90%;
   border-radius: 20%;
