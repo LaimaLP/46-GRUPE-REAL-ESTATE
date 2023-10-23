@@ -124,10 +124,41 @@ main {
   cursor: pointer;
 }
 
+
+
+form{
+  position: relative;
+}
 input {
   border-radius: 10px;
-  padding: 10px;
+  padding: 7px;
   border: none;
+  font-size: 13px;
+  
+}
+input:focus{
+  outline: none
+}
+.search-button{
+  position: absolute;
+  top: 46px;
+  right: 0px;
+  width: 30px;
+  height: 37%;
+  border-radius: 20%;
+  cursor: pointer;
+  border:none;
+  background-color: rgb(255, 147, 118);
+  font-size: 12px;
+}
+
+.search-button i{
+color: white
+
+}
+.search-button:hover{
+  background-color: orangered;
+
 }
 
 .neighborhood-section {
