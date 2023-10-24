@@ -180,7 +180,9 @@ color: white
 }
 
 .text-fonas {
-  background-color: rgba(245, 237, 237, 0.805);
+  /* background-color: rgba(0, 17, 255, 0.5); */
+   background-color: rgba(255, 253, 253, 0.4);
+  backdrop-filter: blur(7px);
   margin-left: calc(32% - 65px);
   color: blue;
   padding: 8px;
@@ -195,7 +197,7 @@ color: white
   color: white;
   padding: 10px;
   font-size: 10px;
-  border-radius: 20px;
+  border-bottom-left-radius: 20px;
   position: relative;
   right: -60%;
 }
@@ -238,8 +240,8 @@ color: white
 
 .see-all-link {
   color: white;
-  background-color: rgb(255, 106, 0);
-  border: 2px solid rgb(255, 106, 0);
+  background-color: rgb(255, 147, 118);
+  border: 2px solid rgb(255, 147, 118);
   text-decoration: none;
   padding: 7px 28px 7px 28px;
   box-shadow: -3px 5px 15px #d67505;
